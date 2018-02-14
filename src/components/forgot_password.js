@@ -78,6 +78,13 @@ class ForgotPassword extends Component {
                     <div align="center" style={{ marginTop: '100px' }}>
                         <Form onSubmit={this.handleConfirmationSubmit}>
                             <h3 style={{ color: 'yellow', marginBottom: '2em' }}>Forgot Password</h3>
+                            {/* <div className="form-group">
+                                <input
+                                    className="form-control"
+                                    type="text"
+                                    onChange={e => this.setState({ email: e.target.value })}
+                                    placeholder="Your Email" required />
+                            </div> */}
                             <FormItem>
                                 <Input
                                     onChange={e => this.setState({ email: e.target.value })}
